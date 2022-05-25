@@ -8,7 +8,7 @@
         android:label="Noted"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".di.koin.koin.App"
+        android:name=".di.App"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.roomapp.MainActivity">
             <intent-filter>

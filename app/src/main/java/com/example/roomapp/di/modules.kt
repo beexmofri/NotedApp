@@ -1,4 +1,4 @@
-package com.example.roomapp.di.koin.koin
+package com.example.roomapp.di
 
 import com.example.roomapp.model.User
 import com.example.roomapp.repository.UserRepository

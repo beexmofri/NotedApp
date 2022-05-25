@@ -1,4 +1,4 @@
-package com.example.roomapp.di.koin.koin
+package com.example.roomapp.di
 
 import android.app.Application
 import org.koin.android.ext.koin.androidContext
