@@ -10,6 +10,7 @@ import com.example.roomapp.model.User
 abstract class UserDatabase : RoomDatabase() {
 
     abstract fun userDao(): UserDao
+//    abstract fun getUserDao(): UserDao
 
     companion object {
         @Volatile
