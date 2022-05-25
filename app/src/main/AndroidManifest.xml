@@ -8,11 +8,9 @@
         android:label="Noted"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".di.koin.App"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name="com.example.roomapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -35,7 +35,7 @@ class AddFragment : Fragment() {
         return view
     }
 
-    private fun insertDataToDatabase() {
+    fun insertDataToDatabase() {
         val tittle = addTittle_et.text.toString()
         val note = addNote_et.text.toString()
 
@@ -44,7 +44,7 @@ class AddFragment : Fragment() {
             val user = User(
                 0,
                 tittle,
-                note,
+                note
             )
             // Add Data to Database
             mUserViewModel.addUser(user)

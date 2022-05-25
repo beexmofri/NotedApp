@@ -27,11 +27,13 @@ class LoginFragment : Fragment() {
         return binding.root
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         val sharedPreferences: SharedPreferences =
             requireActivity().getSharedPreferences("DATA_INFO", Context.MODE_PRIVATE)
+
 
         binding.btnlogin.setOnClickListener {
             val str_email = binding.etemail.text.toString()

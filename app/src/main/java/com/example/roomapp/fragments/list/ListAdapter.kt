@@ -25,11 +25,11 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentItem = userList[position]
-//        holder.itemView.id_txt.text = currentItem.id.toString()
+        holder.itemView.id_txt.text = currentItem.id.toString()
         holder.itemView.tittle_txt.text = currentItem.tittle
         holder.itemView.note_txt.text = currentItem.note
 
-        holder.itemView.rowLayout.setOnClickListener {
+        holder.itemView.rowLayout.imageedit.setOnClickListener {
             val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
             holder.itemView.findNavController().navigate(action)
 

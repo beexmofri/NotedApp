@@ -46,6 +46,8 @@ class ListFragment : Fragment() {
 
         view.tes.text = "Wellcome, $username"
 
+
+
         view.logout.setOnClickListener {
             val editor: SharedPreferences.Editor = sharedPreferences.edit()
             editor.clear()
